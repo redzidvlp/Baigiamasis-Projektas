@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.welcome-wrapp {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 50px;
+}
+
+.welcome-item-1 {
+    font-size: 26pt;
+}
+
+.welcome-item-2 {
+    font-size: 36pt;
+}
+
+.welcome-log {
+    height: auto;
+    width: 35%;
+}

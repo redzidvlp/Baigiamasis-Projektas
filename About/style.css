@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.footer-display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-h2 {
+  padding: 0;
+  font-size: 12pt;
+}
+
+.ft-rights {
+  border-top: 0;
+}
+
+.carousel-inner img {
+  max-width: 35%;
+  height: auto;
+}
+.bg-color-beige{
+  background-color: #e6e6e6;
+}
+
+.accordion-style {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.accordion-item {
+  width: 80%;
+}
